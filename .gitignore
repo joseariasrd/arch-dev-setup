@@ -1,0 +1,4 @@
+*.log
+.dotfiles-backup/
+dotfiles/hypr/.config/hypr/local.conf
+.env

@@ -1,0 +1,42 @@
+# Compositor + session
+hyprland
+uwsm
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk   # file picker for GTK/Electron apps
+hyprpolkitagent
+hyprlock
+hypridle
+qt5-wayland
+qt6-wayland
+greetd
+greetd-tuigreet
+
+# Bar, launcher, notifications, terminal
+waybar
+fuzzel
+mako
+kitty
+
+# Screenshots / clipboard / brightness
+grim
+slurp
+wl-clipboard
+cliphist
+
+# Audio (PipeWire), Bluetooth, network applet
+pipewire
+pipewire-pulse
+pipewire-alsa
+wireplumber
+pavucontrol
+bluez
+bluez-utils
+blueman
+network-manager-applet
+
+# Files & fonts
+thunar
+gvfs
+ttf-jetbrains-mono-nerd
+noto-fonts
+noto-fonts-emoji

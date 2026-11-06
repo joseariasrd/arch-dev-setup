@@ -1,0 +1,8 @@
+# RTX 50 series (Blackwell) requires the open kernel modules.
+# dkms variant rebuilds automatically for any installed kernel.
+nvidia-open-dkms
+nvidia-utils
+nvidia-settings
+libva-nvidia-driver  # VA-API video decode in browsers
+egl-wayland
+linux-headers

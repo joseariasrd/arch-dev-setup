@@ -1,0 +1,21 @@
+# Shell & CLI quality of life
+starship
+fzf
+ripgrep
+fd
+bat
+eza
+zoxide
+jq
+yq
+btop
+tree
+stow
+lazygit
+github-cli
+
+# Runtimes & containers
+mise                # per-project Node/Python/Go/... versions
+docker
+docker-compose
+docker-buildx

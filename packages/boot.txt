@@ -1,0 +1,7 @@
+# Snapshots + bootable rollbacks + Windows detection
+snapper
+snap-pac            # auto snapshot before/after every pacman transaction
+grub-btrfs          # adds snapshots to the GRUB menu
+inotify-tools       # needed by grub-btrfsd
+os-prober           # detect Windows on the other disk
+ntfs-3g

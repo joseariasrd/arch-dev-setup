@@ -1,0 +1,13 @@
+# Core tools used by the rest of the bootstrap
+base-devel
+git
+curl
+wget
+unzip
+zip
+man-db
+man-pages
+reflector
+pacman-contrib      # paccache, checkupdates
+openssh
+bash-completion

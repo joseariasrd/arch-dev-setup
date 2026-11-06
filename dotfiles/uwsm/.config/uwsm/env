@@ -1,0 +1,11 @@
+# Environment for the whole Hyprland session (loaded by uwsm).
+# NVIDIA
+export LIBVA_DRIVER_NAME=nvidia
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
+export NVD_BACKEND=direct
+# Wayland for toolkits / Electron
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+export QT_QPA_PLATFORM="wayland;xcb"
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export MOZ_ENABLE_WAYLAND=1
+export XCURSOR_SIZE=24
