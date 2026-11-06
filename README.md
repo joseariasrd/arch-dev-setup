@@ -44,7 +44,7 @@ Las listas de paquetes están en `packages/*.txt`: edítalas para añadir o quit
 Arranca desde el USB y conéctate a internet (cable, o `iwctl` para Wi-Fi). Después:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/<TU_USUARIO>/arch-dev-setup/main/archinstall/user_configuration.json
+curl -LO https://raw.githubusercontent.com/joseariasrd/arch-dev-setup/main/archinstall/user_configuration.json
 archinstall --config user_configuration.json
 ```
 
@@ -66,7 +66,7 @@ Al terminar, reinicia y entra con tu usuario (pantalla de texto).
 
 ```bash
 nmtui                       # si usas Wi-Fi
-git clone https://github.com/<TU_USUARIO>/arch-dev-setup.git ~/dotfiles
+git clone https://github.com/joseariasrd/arch-dev-setup.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 sudo reboot
